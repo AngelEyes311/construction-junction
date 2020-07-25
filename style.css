@@ -1,0 +1,191 @@
+
+
+
+
+
+html {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+/**********************NAVBAR***********************************
+*******************************************************************
+****************************************************************/
+
+.collapse a {
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+.collapse a:hover {
+  color: white;
+  background-color: #b9b9b9;
+}
+
+.logo {
+  border: solid black 2px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+/********************************************************************
+******************************HEADER**********************************
+******************************************************************/
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+.header {
+  background: url(highbw1.jpg);
+  margin-top: 8rem;
+  object-fit: contain;
+  top: 8rem !important;
+}
+
+
+/*******************************************************************
+********************SERVICE SECTION*************************
+****************************************************************/
+
+.col-values {
+  margin: 1rem;
+  object-fit: contain;
+
+}
+
+.huge-margin {
+  margin-top: 10rem;
+}
+
+.ser-img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+/*******************************************************************
+********************ABOUT SECTION*************************
+****************************************************************/
+.parallax {
+  /* The image used */
+  background-image: url("conbw8.jpg"), url("bridge.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.indent {
+  padding-left: 8rem;
+}
+
+.indent-r {
+  padding-right: 8rem;
+}
+
+
+
+/*******************************************************************
+********************PROJECTS SECTION*************************
+****************************************************************/
+
+
+
+
+
+
+/*******************************************************************
+********************CONTACT SECTION*************************
+****************************************************************/
+
+.center {
+  color: black;
+}
+
+.center a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*******************************************************************
+********************FOOTER SECTION*************************
+****************************************************************/
+
+.img-foot {
+  width: 18.75rem;
+  background-color: white;
+}
+
+.widget a, .widget h5, .widget h4{
+  color: white;
+
+}
+
+.widget a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.copy a {
+  color: white;
+}
+
+.paragraph a {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.under a:hover {
+  text-decoration: underline;
+  color: white;
+}
+ .under a {
+   color: white;
+ }
+
+ .footer {
+   color: white;
+ }
+
+.under h4 {
+  font-size: 1.3rem;
+}
+
+.menu a {
+  color: white;
+}
+
